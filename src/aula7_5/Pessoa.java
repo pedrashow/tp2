@@ -1,5 +1,7 @@
 package aula7_5;
 
+import java.util.ArrayList;
+
 public class Pessoa {
 	
 	  private String primeiroNome;
@@ -38,6 +40,10 @@ public class Pessoa {
 	  public Data getDtNascimento() {
 		  return this.dtNascimento;
 	  }
+          
+          public boolean podeSerMonitor (Disciplina d) {
+              return false;
+          }
 	  
 	  
 	  

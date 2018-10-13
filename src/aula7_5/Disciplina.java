@@ -13,10 +13,15 @@ public class Disciplina {
 		this.ementa = ementa;
 		this.cargaHoraria = cargaHoraria;
 		this.responsavel = responsavel;
+                responsavel.tornarResponsavel(this);
 	}
         
         public String imprimeDisciplina() {
             return this.nome + " - " + this.responsavel.getNome();
+        }
+        
+        public Professor getResponsavel () {
+            return this.responsavel;
         }
 	
 	

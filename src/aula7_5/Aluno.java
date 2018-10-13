@@ -1,5 +1,7 @@
 package aula7_5;
 
+import java.util.ArrayList;
+
 public class Aluno extends Pessoa {
 	private String matricula; //periodo + 6 digitos
 	private Periodo periodoIngresso;
@@ -53,6 +55,12 @@ public class Aluno extends Pessoa {
 	public Periodo getPeriodoIngresso() {
 		return periodoIngresso;
 	}
+        
+        public boolean podeSerMonitor (Disciplina d) {
+            if (this.orientador == d.getResponsavel())
+                return true;
+            return false;
+        }
 	
 	
 	
