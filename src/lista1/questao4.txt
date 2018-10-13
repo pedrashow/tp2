@@ -1,0 +1,5 @@
+a) O código é uma proposta para resolver o problema 105 da uva Online Judge - "The Skyline problem"
+b) Com todo o código na função main, há uma certa dificuldade na leitura, debug e manutenção deste programa. Outro dificultador é a falta de comentários que,
+ em conjunto com as variáveis muito abreviadas, prejudica o entendimento da utilidade deste código. Fora a falta das boas práticas citadas acima,
+ o código também não sai do loop "while" na linha 7, uma vez que o usuario vai sempre poder inserir mais dados. Para corrigir, seria necessário que
+ os dados fossem lidos a partir de um arquivo ou se fosse dada ao usuário uma opção para terminar a digitação.  Nota 4.

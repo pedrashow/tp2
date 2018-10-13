@@ -1,0 +1,201 @@
+nome,codigo,cargaHoraria
+Blackrock MuniEnhanced Fund Inc.,MEN,5
+lululemon athletica inc.,LULU,5
+Eaton Vance Corporation,ETW,2
+Public Storage,PSA^F,6
+Sino-Global Shipping America Ltd.,SINO,2
+VASCO Data Security International Inc.,VDSI,5
+Callon Petroleum Company,CPE^A,6
+Synthetic Fixed-Income Securities Inc.,GJT,4
+Stellus Capital Investment Corporation,SCQ,6
+Liberty All-Star Equity Fund,USA,5
+Blackrock New York Municipal 2018 Term Trust,BLH,5
+Genocea Biosciences Inc.,GNCA,2
+MTGE Investment Corp.,MTGEP,2
+Aralez Pharmaceuticals Inc.,ARLZ,4
+Nuveen Diversified Dividend and Income Fund,JDD,4
+Delcath Systems Inc.,DCTH,2
+ManTech International Corporation,MANT,4
+Manitex International Inc.,MNTX,3
+WisdomTree Germany Hedged Equity Fund,DXGE,2
+VistaGen Therapeutics Inc.,VTGN,2
+Electro Scientific Industries Inc.,ESIO,3
+Office Depot Inc.,ODP,3
+Lands&#39; End Inc.,LE,4
+Carvana Co.,CVNA,5
+PowerShares S&P SmallCap Financials Portfolio,PSCF,5
+Great Western Bancorp Inc.,GWB,5
+Proshares UltraPro Nasdaq Biotechnology,UBIO,4
+Advanced Energy Industries Inc.,AEIS,2
+Ferrari N.V.,RACE,5
+SunTrust Banks Inc.,STI.WS.A,2
+Alliance World Dollar Government Fund II,AWF,3
+Pulmatrix Inc.,PULM,5
+Bruker Corporation,BRKR,4
+Mobile Mini Inc.,MINI,4
+Eaton Vance Municipal Income 2028 Term Trust,ETX           ,4
+Morgan Stanley Emerging Markets Domestic Debt Fund Inc.,EDD,4
+Rubicon Technology Inc.,RBCN,3
+Lehman ABS Corporation,JBK,2
+First Potomac Realty Trust,FPO,4
+HollyFrontier Corporation,HFC,5
+Johnson Controls International plc,JCI,2
+1347 Property Insurance Holdings Inc.,PIH,4
+Akorn Inc.,AKRX,3
+United Natural Foods Inc.,UNFI,4
+CNA Financial Corporation,CNA,5
+Korea Fund Inc. (The),KF,6
+Yingli Green Energy Holding Company Limited,YGE,2
+Prana Biotechnology Ltd,PRAN,4
+Just Energy Group Inc.,JE^A,4
+John Hancock Preferred Income Fund III,HPS,6
+Patriot Transportation Holding Inc.,PATI,5
+Forum Merger Corporation,FMCIR,4
+Seanergy Maritime Holdings Corp,SHIP,4
+Nuveenn Intermediate Duration Quality Municipal Term Fund,NIQ,4
+Ita? CorpBanca,ITCB,6
+Harmonic Inc.,HLIT,4
+Potbelly Corporation,PBPB,2
+Banco Bilbao Viscaya Argentaria S.A.,BBVA,5
+Eagle Bulk Shipping Inc.,EGLE,3
+ESSA Pharma Inc.,EPIX,5
+Companhia Paranaense de Energia (COPEL),ELP,6
+Consumer Portfolio Services Inc.,CPSS,2
+Impinj Inc.,PI,5
+Five Point Holdings LLC,FPH,5
+Urstadt Biddle Properties Inc.,UBA,6
+Take-Two Interactive Software Inc.,TTWO,6
+Welbilt Inc.,WBT,6
+Calpine Corporation,CPN,4
+TTM Technologies Inc.,TTMI,5
+PowerShares FTSE International Low Beta Equal Weight Portfolio,IDLB,4
+WisdomTree Emerging Markets Quality Dividend Growth Fund,DGRE,2
+SenesTech Inc.,SNES,5
+National General Holdings Corp,NGHCZ,2
+Treehouse Foods Inc.,THS,6
+Zion Oil & Gas Inc,ZN,3
+Navistar International Corporation,NAV,5
+Pacific Gas & Electric Co.,PCG,2
+The GDL Fund,GDL,6
+Townsquare Media Inc.,TSQ,4
+Tenaris S.A.,TS,3
+NGL ENERGY PARTNERS LP,NGL,4
+ArQule Inc.,ARQL,4
+51job Inc.,JOBS,5
+Armstrong World Industries Inc,AWI,5
+Lawson Products Inc.,LAWS,3
+Newmont Mining Corporation,NEM,3
+AMN Healthcare Services Inc,AMN,4
+Ameresco Inc.,AMRC,3
+Biolase Inc.,BIOL,2
+Ocean Bio-Chem Inc.,OBCI,4
+American Water Works,AWK,6
+Salisbury Bancorp Inc.,SAL,4
+India Fund Inc. (The),IFN,6
+Smart,SFS,4
+PS Business Parks Inc.,PSB^W,2
+SunTrust Banks Inc.,STI^A,3
+Cytori Therapeutics Inc,CYTX,3
+Guidance Software Inc.,GUID,3
+GMS Inc.,GMS,2
+Hyatt Hotels Corporation,H,6
+Sierra Oncology Inc.,SRRA,3
+Jupai Holdings Limited,JP,4
+Glatfelter,GLT,2
+Principal Financial Group Inc,PFG,2
+Technical Communications Corporation,TCCO,4
+Iconix Brand Group Inc.,ICON,4
+Hannon Armstrong Sustainable Infrastructure Capital Inc.,HASI,5
+Aeglea BioTherapeutics Inc.,AGLE,2
+The Long-Term Care ETF,OLD,6
+Equus Total Return Inc.,EQS,6
+RF Industries Ltd.,RFIL,3
+Motif Bio plc,MTFBW,3
+Aberdeen Greater China Fund Inc.,GCH,5
+Eaton Vance Corporation,EV,3
+Five Oaks Investment Corp.,OAKS^A,3
+Natural Alternatives International Inc.,NAII,2
+Rudolph Technologies Inc.,RTEC,3
+Clorox Company (The),CLX,5
+BB&T Corporation,BBT^G,2
+vTv Therapeutics Inc.,VTVT,3
+Verifone Systems Inc.,PAY,5
+Merrimack Pharmaceuticals Inc.,MACK,3
+NCR Corporation,NCR,5
+The Ensign Group Inc.,ENSG,4
+AquaBounty Technologies Inc.,AQB,5
+Provident Financial Services Inc,PFS,3
+IRIDEX Corporation,IRIX,6
+CNO Financial Group Inc.,CNO,3
+Sensata Technologies Holding N.V.,ST,3
+Pulmatrix Inc.,PULM,6
+Zhaopin Limited,ZPIN,3
+PowerShares S&P SmallCap Consumer Staples Portfolio,PSCC,5
+National General Holdings Corp,NGHC,2
+Lipocine Inc.,LPCN,6
+Del Taco Restaurants Inc.,TACO,6
+Patriot Transportation Holding Inc.,PATI,2
+BioTelemetry Inc.,BEAT,4
+Electrum Special Acquisition Corporation,ELECW,2
+MACOM Technology Solutions Holdings Inc.,MTSI,5
+Hudson Global Inc.,HSON,4
+Pepsico Inc.,PEP,3
+AmeriServ Financial Inc.,ASRV,3
+Bank of America Corporation,BAC^D,4
+Blackrock MuniYield Investment QualityFund,MFT,2
+First Trust NASDAQ ABA Community Bank Index Fund,QABA,4
+TravelCenters of America LLC,TANNI,3
+Benitec Biopharma Limited,BNTCW,5
+Under Armour Inc.,UA,2
+ImmuCell Corporation,ICCC,5
+Ternium S.A.,TX,2
+Calumet Specialty Products Partners L.P.,CLMT,4
+NRG Yield Inc.,NYLD.A,6
+Nuveen High Income 2020 Target Term Fund,JHA,2
+American Homes 4 Rent,AMH^D,5
+American International Group Inc.,AIG,3
+Popular Inc.,BPOPN,2
+Insight Enterprises Inc.,NSIT,5
+SLM Corporation,SLMBP,6
+American Campus Communities Inc,ACC,5
+St. Joe Company (The),JOE,3
+Oritani Financial Corp.,ORIT,5
+Versum Materials Inc.,VSM,3
+BlackRock Inc.,BLK,4
+Snap Inc.,SNAP,5
+Xenith Bankshares Inc.,XBKS,3
+T-Mobile US Inc.,TMUSP,4
+Sucampo Pharmaceuticals Inc.,SCMP,2
+Global X SuperDividend REIT ETF,SRET,2
+Infinera Corporation,INFN,5
+Abeona Therapeutics Inc.,ABEO,6
+Genco Shipping & Trading Limited Warrants Expiring 12/31/2021 ,GNK,5
+Cathay General Bancorp,CATY,2
+X-Links Gold Shares Covered Call ETN,GLDI,2
+Carver Bancorp Inc.,CARV,5
+CPB Inc.,CPF,2
+National Grid Transco PLC,NGG,2
+Morgan Stanley Asia-Pacific Fund Inc.,APF,5
+Gazit-Globe Ltd.,GZT,6
+Hasbro Inc.,HAS,5
+Saban Capital Acquisition Corp.,SCACU,5
+Viveve Medical Inc.,VIVE,2
+First Trust Developed Markets Ex-US AlphaDEX Fund,FDT,3
+Invesco Quality Municipal Income Trust,IQI,4
+Five Prime Therapeutics Inc.,FPRX,4
+Party City Holdco Inc.,PRTY,2
+First Trust Latin America AlphaDEX Fund,FLN,4
+First Trust Hong Kong AlphaDEX Fund,FHK,4
+Capital Bank Financial Corp.,CBF,4
+NICE Ltd,NICE,4
+Hertz Global Holdings Inc,HTZ,3
+Willamette Valley Vineyards Inc.,WVVIP,6
+EXCO Resources NL,XCO,4
+Goldman Sachs BDC Inc.,GSBD,5
+Pacific Coast Oil Trust,ROYT,2
+MVC Capital Inc.,MVCB,5
+Performant Financial Corporation,PFMT,2
+Highwoods Properties Inc.,HIW,2
+Ideal Power Inc.,IPWR,2
+Vanguard Russell 3000 ETF,VTHR,6
+Hostess Brands Inc.,TWNKW,3
