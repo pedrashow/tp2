@@ -2,7 +2,7 @@ package aula7_5;
 
 import java.util.ArrayList;
 
-public class Professor extends Pessoa {
+public class Professor extends Pessoa implements Academico {
 	private String matSiape; //7 digitos
 	private String Departamento;
         
@@ -29,7 +29,7 @@ public class Professor extends Pessoa {
             return Departamento;
 	}
         
-        public void tornarResponsavel(Disciplina d) {
+        public void tornarResponsavel (Disciplina d) {
             this.responsavelPor.add(d);
         }
         

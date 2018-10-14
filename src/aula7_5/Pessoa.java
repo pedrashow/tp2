@@ -41,9 +41,6 @@ public class Pessoa {
 		  return this.dtNascimento;
 	  }
           
-          public boolean podeSerMonitor (Disciplina d) {
-              return false;
-          }
 	  
 	  
 	  

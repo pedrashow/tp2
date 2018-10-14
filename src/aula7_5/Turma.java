@@ -7,7 +7,7 @@ public class Turma {
 	private Periodo periodo;
 	private ArrayList<Aluno> alunos = new ArrayList<>();
 	private Professor professor;
-	private Pessoa monitor;
+	private Academico monitor;
         private Disciplina disciplina;
 	
 	public Turma(Periodo periodo, ArrayList<Aluno> alunos, Professor professor, Disciplina disciplina) {
@@ -18,7 +18,7 @@ public class Turma {
 		this.disciplina = disciplina;
 	}
         
-        public void associarMonitor (Pessoa p) {
+        public void associarMonitor (Academico p) {
             if (p.podeSerMonitor(this.disciplina))
                 this.monitor = p;
             else

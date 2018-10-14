@@ -56,11 +56,6 @@ public class Aluno extends Pessoa {
 		return periodoIngresso;
 	}
         
-        public boolean podeSerMonitor (Disciplina d) {
-            if (this.orientador == d.getResponsavel())
-                return true;
-            return false;
-        }
 	
 	
 	
