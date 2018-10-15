@@ -12,15 +12,15 @@ package Lista3_Q7;
 
 public abstract class Solido {
         
-    private final PoligonoRegular base;
+    private final FormaGeometrica base;
     private final double altura;
     
-    Solido(PoligonoRegular base, double altura) {
+    Solido(FormaGeometrica base, double altura) {
         this.base = base;
         this.altura = altura;
     }
     
-    public PoligonoRegular getBase() {
+    public FormaGeometrica getBase() {
         return this.base;
     }
     

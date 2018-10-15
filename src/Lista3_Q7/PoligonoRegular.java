@@ -22,14 +22,17 @@ public class PoligonoRegular implements FormaGeometrica {
         this.numLados = numLados;
     }
     
+    @Override
     public int getNumLados() {
         return this.numLados;
     }
     
+    @Override
     public double raio () {
         return Ponto.dist (this.centro,this.vertice);
     }
     
+    @Override
     public double lado () {
         return 2 * this.raio() * Math.sin(Math.PI/this.numLados);
     }

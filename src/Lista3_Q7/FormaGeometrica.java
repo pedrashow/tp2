@@ -17,4 +17,10 @@ public interface FormaGeometrica {
     public double area();
     
     public String descricao();
+    
+    public int getNumLados();
+    
+    public double lado();
+    
+    public double raio();
 }
