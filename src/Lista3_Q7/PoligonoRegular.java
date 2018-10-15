@@ -9,8 +9,47 @@ package Lista3_Q7;
  *
  * @author Beto
  */
-public class PoligonoRegular {
+
+public class PoligonoRegular implements FormaGeometrica {
     
+    private final int numLados;
+    private final Ponto centro;
+    private final Ponto vertice;
     
+    PoligonoRegular (int numLados, Ponto centro, Ponto vertice) {
+        this.centro = centro;
+        this.vertice = vertice;
+        this.numLados = numLados;
+    }
     
+    public int getNumLados() {
+        return this.numLados;
+    }
+    
+    public double raio () {
+        return Ponto.dist (this.centro,this.vertice);
+    }
+    
+    public double lado () {
+        return 2 * this.raio() * Math.sin(Math.PI/this.numLados);
+    }
+    
+    public double apotema() {
+        return this.raio() * Math.cos(Math.PI/this.numLados);
+    }
+    
+    @Override
+    public double perimetro() {
+        return numLados * this.lado();
+    }
+    
+    @Override
+    public double area() {
+        return this.perimetro() * this.apotema() / 2;
+    }
+    
+    @Override
+    public String descricao() {
+        return "Tenho " + numLados + " lados e meu lado tem comprimento " + this.lado();
+    }
 }
