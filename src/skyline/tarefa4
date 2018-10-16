@@ -1,0 +1,8 @@
+Problema Skyline
+
+Para resolver o desafio é necessário saber o predio mais alto, olhando a partir da visão frontal em 2D de uma cidade, em cada ponto dela.
+Desta forma, ao usarmos a linha do solo como uma reta, partindo da posicao mais a esquerda até a posicao mais a direita da paisagem, 
+fica mais simples de saber e alterar, se necessário, a altura de cada ponto conforme cada novo predio é inserido na cidade.
+Consequentemente, desenhamos um vetor que vai da posição mais a esquerda (p[0]) até a posição mais a direita (p[10000]), como limitado pelo enunciado.
+A partir deste ponto, a cada predio lido, verificamos se o ponto mais alto do prédio novo irá sobrepor a altura já existente naquele ponto e
+atualizar a informação de acordo. 

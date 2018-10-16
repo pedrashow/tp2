@@ -1,0 +1,201 @@
+first_name,last_name,dia,mes,ano,matSIAPE,departamento
+Letizia,Morteo,10,8,1965,6152381,Lutherische Theologische Hochschule Oberursel
+Genna,Morsey,27,9,1976,6735871,Akdeniz University
+Alex,Mohan,22,12,1947,4159441,University Institute of Oriental Studies
+Loleta,Handlin,23,9,1943,3329141,Universidad Autónoma de Fresnillo
+Zorah,Hatcher,2,9,1990,8311898,Johnson & Wales University
+Parrnell,McLukie,23,12,1970,7744019,Rhodes University
+Ignatius,Karpmann,4,10,1946,2000482,Brigham Young University
+Demetrius,Eilhermann,25,7,1944,8377555,Karolinska Institute Stockholm
+Heddi,Skipton,9,3,1944,8655151,Namik Kemal University
+Kurtis,Ginsie,7,5,1966,9861032,Australian Catholic University
+Lisha,Simonou,8,10,1978,6825568,Port Said University
+Munroe,Bottelstone,15,4,1947,1808022,Lasell College
+Amalie,Wooddisse,2,4,1951,3566706,Université de Kisangani
+Ingra,De Blasio,23,2,1959,7953117,University College Cork
+Brietta,Stilwell,24,8,1952,7718934,Lake Forest College
+Coralyn,Dayes,3,11,1962,3945602,Universidad Autónoma de Nuevo León
+Ruthie,Follacaro,4,4,1986,8633403,Universidad Nacional Abierta y a Distancia
+Viola,Rabat,23,11,1960,9238494,American Academy of Nutrition
+Vikki,Baversor,5,1,1971,9619479,Universidade Federal de Santa Maria
+Rikki,Pearcy,11,8,1962,1261368,Comilla University
+Chauncey,Cordeix,1,5,1947,2469380,Fachhochschule Kufstein (Tirol)
+Lay,Ledeker,26,12,1949,7009036,The Illinois Institute of Art-Chicago
+Sibella,Finan,18,4,1983,9408846,Trent University
+Rozalin,Chalcot,6,2,1954,5894695,Liaoning Technical University
+Rockwell,Berens,20,10,1962,8663196,University of the Visayas
+Lonni,Fawcus,17,1,1984,5317021,St. John Fisher College
+Abagael,Zylbermann,17,10,1983,9677036,Ecole Superieure des Télécommunications
+Adler,Edds,19,6,1959,9783262,Hartford Graduate Center (Rensselaer at Hartford)
+Max,Bushel,26,5,1960,2956244,Alaska Pacific University
+Lenore,Blaxton,16,2,1986,5803568,Kossuth Lajos University
+Ingamar,Ingilson,7,4,1947,4069210,Liverpool John Moores University
+Ethelda,Davydychev,12,9,1966,1024707,Turin Polytechnic University In Tashkent
+Ofelia,Seebright,1,2,1940,5531518,Universidad San Marcos
+Hamid,Pesselt,8,11,1960,9260195,Vikram University
+Bret,MacNish,23,8,1980,8774248,Edogawa University
+Alastair,Gannon,5,3,1959,6949408,St. John Fisher College
+Dill,Planks,25,8,1942,1817451,Universitas Negeri Padang
+Blondie,Pickin,27,12,1973,2079007,"Moscow State University of Economics, Statistics and Informatics"
+Sella,Silley,18,12,1957,1081436,Uganda Christian University
+Elise,Bartlomiej,2,2,1952,5646078,Hamline University
+Myrah,Coyish,3,3,1948,9051473,Houdegbe North American University Benin
+Ignacio,Pashenkov,5,2,1968,8496909,Symbiosis International University
+Rolf,Heffernan,28,12,1981,3562157,Shinawatra University
+Michaeline,Heintsch,13,7,1973,5783343,Jumeira University
+Cary,Cobbold,24,10,1941,9750869,Central University of Finance and Economics
+Catie,Anton,4,4,1962,3439798,Universidad Internacional de Integración de América Latina
+Pail,Gready,9,7,1960,1344389,Baqai Medical University
+Alair,Paudin,17,3,1983,2575388,North Ossetian State University
+Loren,Highnam,28,2,1987,9281253,Hochschule Zittau/Görlitz (FH)
+Trev,Videler,11,11,1986,8311722,Blue Mountain College
+Chloris,Roughley,17,2,1968,9476168,Lagrange College
+Ansel,Ord,22,11,1988,4330410,University of Northampton
+Edyth,McCafferty,6,9,1955,9447688,Korea Advanced Institute of Science & Technology
+Hobie,Adger,20,8,1944,8889794,Universitas Lampung
+Larissa,Blease,8,11,1978,7670647,IASE (Institute of Advanced Studies) Deemed University
+Osmond,Redmile,1,6,1950,2305579,Knightsbridge University
+Adolpho,Helbeck,16,10,1980,4265361,Fort Lewis College
+Codie,Pilgrim,14,5,1956,4082033,University of Sindh
+Correna,Siegertsz,16,9,1986,6789525,Katholische Fachhochschule Nordrhein-Westfalen
+Noemi,Ingledow,2,12,1989,1231462,St. Anthony College of Nursing
+Rozanne,McFadden,24,10,1976,3922941,Abia State Polytechnic
+Lanette,Corroyer,17,6,1943,2445337,Advance Tertiary College
+Fabian,Everingham,20,2,1965,1492694,Graduate Theological Union
+Maritsa,Callingham,26,3,1955,3574077,Colegio de Estudios Superiores de Administración (CESA)
+Laryssa,Wroughton,28,5,1951,2219430,Baker College of Port Huron
+Elden,Pyrton,26,11,1986,4391592,Dr. Panjabrao Deshmukh Krishi Vidyapeeth
+Easter,Brickwood,1,3,1953,5409447,"Hochschule Harz, Hochschule für angewandte Wissenschaften (FH)"
+Butch,Talloe,19,10,1990,6985175,Jagannath University
+Gabbi,Newling,9,9,1972,6204169,Moldova Technical University
+Nikolaos,Watterson,24,10,1970,2944833,Sultan Haji Ahmad Shah Polytechnic
+Elisabet,Stannas,26,6,1971,9512520,St. Augustine University of Tanzania
+Kirby,Wisker,3,3,1990,8096471,"Fachhochschule Mannheim, Hochschule für Sozialwesen"
+Matthew,Tincombe,18,2,1964,6437777,Banat's University of Agricultural Sciences
+Stephenie,Nowill,15,12,1948,3568479,Shomal University
+Pincus,Julian,3,1,1981,3253588,Brigham Young University
+Florette,Simmon,2,7,1948,1942450,Tokyo Engineering University
+Vinny,Conelly,25,8,1948,2303726,Mountains of the Moon University
+Svend,Andreichik,26,11,1964,3830140,Universitas Gajayana Malang
+Genevra,Alvis,14,11,1986,9945713,Surugadai University
+Barry,Lesly,28,9,1969,2017205,North China Electric Power University
+Falito,Eaglesham,12,10,1977,3151064,Hanover College
+Constantine,Arthur,18,7,1987,2534347,Universidad Nueva San Salvador
+Leonelle,Spears,14,6,1955,6891969,School of the Museum of Fine Arts
+Trev,Ives,3,7,1969,8798575,Eurasia International University
+Sim,Oakton,19,8,1956,2865022,Universidad Católica de Honduras
+Fidelio,Boulde,6,8,1957,2326562,Berean University of the Assemblies of God
+Zacharia,Dymick,18,10,1943,2724666,Masdar University Of Science And Technology
+Heath,Bentick,21,12,1962,7753881,Universidad Autónoma del Noreste
+Corinna,Sampey,13,9,1976,2488274,Academy of Economics in Cracow
+Sully,Bulteel,6,7,1946,4847018,China Agricultural University
+Germaine,Gerty,20,6,1990,3221504,School of Banking and Management in Cracow
+Bobina,Dundendale,12,9,1985,9370977,Azerbaijan Medical University
+Constancia,Twelves,28,4,1954,2024635,Northeast University at Qinhuangdao Campus
+Boyce,Burdikin,28,2,1966,1101395,Universidad Técnica de Manabí
+Ashly,Manis,4,7,1959,9517654,Universidad Nacional de Jujuy
+Gaylene,Bulstrode,4,9,1946,7090998,Information and Communications University
+Yovonnda,Prendergrast,14,12,1977,8389345,Colby-Sawyer College
+Jude,Benfell,5,9,1966,9229451,"St.Patrick's International College, London"
+Micky,Fassman,3,9,1952,1171070,Melaka City Polytechnic
+Arman,Matyushonok,5,10,1975,8621177,Robert Morris College of Chicago
+Pryce,Edsell,19,2,1979,6428011,"University of California, San Diego"
+Theodoric,Dicty,11,12,1966,4635321,Universidad Católica de Santo Domingo
+Trenton,Cabble,11,6,1956,7721013,Iran University of Science and Technology Tehran
+Bernie,Feast,9,7,1972,8201145,Universidade Católica de Pelotas
+Udall,Bonnette,13,4,1965,5622468,"Islamic Azad University, Sowmesara"
+Caroline,Doche,22,12,1946,9130493,Seinan Gakuin University
+Thomasa,Blazhevich,28,12,1960,8348007,Murmansk State Technical University
+Steffen,Merricks,17,10,1981,2571016,Solusi University
+Lodovico,Josskowitz,21,8,1975,1856328,Kendall College of Art and Design
+Jerri,Fetteplace,25,2,1984,5643221,Rani Durgavati University
+Franni,Smoughton,11,3,1985,1879863,Universidad Sergio Arboleda
+Van,Nathan,7,2,1984,2319261,Gifu University
+Benetta,MacCartan,10,8,1943,5015490,"Nordakademie, Staatlich anerkannte private Fachhochschule mit dualen Studiengängen"
+Ben,Krojn,24,12,1947,1196599,Oregon Institute of Technology
+Veriee,Cregg,19,11,1951,9904962,Universidad Católica de Occidente
+Audre,Peet,13,8,1956,1688959,University of West Alabama
+Bobina,Desson,26,7,1990,3029025,Hokkaido Institute of Pharmaceutical Sciences
+Tommy,Moreinis,17,9,1947,5555326,Universidad Intercontinental
+Shalna,Gammade,18,5,1940,5297206,"Institute Of Technology, Australia"
+Margarete,Vittery,25,7,1945,1255050,Xinjiang Agriculture University
+Erin,Pavic,20,1,1986,9706056,University of Kirkuk
+Finley,Dennick,11,10,1982,4142169,Hochschule für Technik und Wirtschaft Karlsruhe
+Stafford,Hauxby,2,2,1965,3424887,"Fachhochschule Heilbronn, Hochschule für Technik und Wirtschaft"
+Mureil,Brehault,1,6,1987,3901885,Nova Scotia College of Art and Design
+Tamarah,Jaegar,22,12,1948,2446865,Indiana University-Purdue University at Indianapolis
+Theresita,Hurlston,9,8,1965,5655484,Universidade de Aveiro
+Nert,Handforth,27,6,1987,8583320,San Francisco Conservatory of Music
+Gustavo,Widdup,26,9,1963,4171945,Kalmar University College
+Janela,Paddell,13,7,1983,9505664,International Hotel Management Institute
+Corie,Bagnell,11,7,1968,5170985,Tashkent State Technical University
+Simone,Allington,12,2,1989,1292845,Universität Bremen
+Emelen,St. Paul,2,4,1943,6492945,Roberts Wesleyan College
+Adeline,Vassbender,8,12,1981,7570641,York College Nebraska
+Mora,Beresfore,2,10,1988,4539345,"Rajamangala University of Technology, Phra Nakhon"
+Stacy,Andrei,15,9,1956,7521863,Eastern New Mexico University
+Tye,Barratt,17,1,1976,1873931,International University College of Nursing (IUCN)
+Mela,Krysiak,18,11,1955,8296342,Universidad Nacional del Comahue
+Monti,Raisbeck,22,10,1977,1942138,"COMSATS Institute of Information Technology, Abbottabad"
+Edin,Celes,10,10,1944,4847767,Universidade Católica de Moçambique
+Edward,Dunnan,19,5,1963,5143276,Universiti Teknologi Mara
+Kellie,Heintsch,3,11,1954,5182430,Technological University (Mandalay)
+Germana,Really,13,12,1988,3714644,Gombe State University
+Aldridge,Gibbons,27,10,1981,2565788,Black Hawk College
+Nana,Stranks,4,11,1949,1477356,North Maharashtra University
+Halsy,Soppett,10,10,1957,6232094,University of Glamorgan
+Grant,Ianilli,28,11,1972,4184640,Akademie der bildenden Künste Wien
+Marquita,Seabrooke,22,11,1990,1521629,Karachi Institute Of Economics And Technology
+Ronalda,Dibbe,14,5,1959,5940792,St. Matthews University
+Albertina,Cawsy,14,5,1981,4149952,Mount Ida College
+Guinna,Smitherham,24,10,1951,7740542,Universidad San Juan de la Cruz
+Johannes,Orts,28,10,1974,5099359,Universidad Católica de Cuenca
+Angel,Bosher,4,12,1971,1465880,Technological University (Pyay)
+Ellary,Huitson,24,5,1989,8553338,Bank Street College of Education
+Jethro,Lorens,15,11,1980,3867725,Frederick University
+Wyn,Penson,5,6,1940,4855378,Adigrat University
+Oneida,Barbrook,22,12,1971,2648905,Benedictine University
+Jeromy,Basilotta,23,12,1958,8727807,School of Banking and Management in Cracow
+Haslett,Cusick,3,12,1975,5312295,Lasell College
+Halie,Aris,19,5,1940,6793084,University of Michigan - Dearborn
+Sander,Rignold,20,10,1943,5574424,Tafila Technical University 
+Kim,Stollery,18,2,1947,5498744,Universidad Mexicana
+Kasper,Iddens,15,10,1982,6116347,Universidad Metropolitana de Monterrey
+Cariotta,Holdworth,12,11,1979,7735772,Universidad Católica del Táchira
+Keslie,Erangy,11,4,1972,8484236,University of Wisconsin - Eau Claire
+Kellina,Old,9,5,1974,7124857,Komsomolsk-on-Amur State Technical University
+Putnem,Gwillyam,28,4,1942,2420698,Ecole Universitaire d'Ingénieurs de Lille
+Ofilia,McKelloch,24,12,1942,6147687,Northwest University Xi'an
+Reamonn,Newlands,14,4,1960,3018467,Chongqing University of Technology
+Jillie,Dorracott,26,8,1942,3957658,Help University College
+Cyril,Elt,5,12,1979,2936504,Universidad de Magallanes
+Quillan,Wanklyn,20,12,1967,2095601,University of San Carlos
+Miles,Rainsdon,1,7,1962,5851309,Mankato State University
+Idalina,Guidi,5,11,1958,8415273,John Carroll University
+Mellisa,Brimley,3,3,1947,8281041,Universidad Autónoma de San Luis Potosí
+Nisse,Galsworthy,16,8,1957,8425664,Yorker International University
+Pancho,Baggett,11,8,1982,6057530,University of the South Pacific Centre
+Dolli,Kenward,15,1,1972,2341267,Cranfield University
+Ariella,Beves,20,10,1965,9957989,Les Roches International School of Hotel Management
+Lew,Joul,13,6,1947,1629425,Southeastern University
+Arny,Edlington,15,9,1941,4092280,Kyoto Prefectural University
+Sibyl,Dionisi,1,7,1947,6940368,Tezukayama Gakuin University
+Sheilakathryn,Pattison,17,12,1954,4611933,Józef Tyszkiewicz College of Business and Computer Science in Bielsko-Biala
+Augustina,Sekulla,23,10,1968,5240794,Vilnius Pedagogical University
+Bo,Creamer,6,2,1974,6736620,Universidad San Francisco de Quito
+Dominik,Grayer,9,10,1947,9463662,"St. Francis College, Brooklyn Heights"
+Herbie,Leisman,4,6,1978,9029038,Tibet University
+Dacy,Caldes,16,1,1940,7197265,State University of New York College of Technology at Alfred
+Kathleen,Gowing,5,11,1941,2828503,Gonabad University of Medical Sciences
+Sapphira,McNelly,24,2,1951,8685279,Fresno City College
+Gabie,Hicken,12,7,1949,7620196,Prince Mohammad Bin Fahd University
+Pansie,Sidney,24,6,1974,9889022,Art Academy of Cincinnati
+Stephanus,Ager,11,7,1985,8422769,Zurich University of Applied Sciences Winterthur
+Hesther,Hoonahan,10,12,1958,2897128,Comrat State University
+Ilene,Kattenhorn,28,4,1971,1538089,Shanxi University
+Daryle,Pratley,3,11,1974,4437360,Urumqi Vocational University
+Randy,Lanham,7,11,1972,9023751,Institut National des Sciences Appliquées de Rouen
+Keely,Chastand,12,10,1982,8440762,Institut National Polytechnique de Lorraine
+Georgi,Geikie,24,6,1973,2677990,Dr. Babasaheb Ambedkar Marathwada Universtiy
+Munroe,Plews,16,3,1983,1588048,Asia E University
+Nickola,Tourner,3,4,1989,5278084,Tainan National College of the Arts
