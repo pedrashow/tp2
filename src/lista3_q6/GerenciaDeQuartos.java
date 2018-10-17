@@ -26,9 +26,21 @@ public class GerenciaDeQuartos {
     public ArrayList <Cliente> clientes = new ArrayList<>();
     public ArrayList <Quarto> quartos = new ArrayList<>();
     
+     
+    public static void cadastraQuarto() {
+        //Simples, Luxo Pequeno, Luxo grande : id
+    }
+
+    public static void cadastraCama() {
+        //id.. depois associar a um quarto
+    }
     
-    public static void cadastroCama () {
-        
+    public static void cadastraCliente() {
+        //nome
+    }
+    
+    public static void fazerCheckin() {
+        //cliente, cama
     }
     
 }

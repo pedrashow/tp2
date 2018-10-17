@@ -17,7 +17,7 @@ public class Diaria {
     private int qtdDiarias;
     private int valorDevido;
     
-    Diaria (Cliente cliente, Cama cama, int dia) {
+    Diaria (Cliente cliente, Cama cama) {
         this.cliente = cliente;
         this.cama = cama;
         this.cama.ocupa();
