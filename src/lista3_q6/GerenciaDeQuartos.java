@@ -22,5 +22,13 @@ public class GerenciaDeQuartos {
      */
     
     public ArrayList <Cama> camas = new ArrayList<>();
+    public ArrayList <Diaria> diarias = new ArrayList<>();
+    public ArrayList <Cliente> clientes = new ArrayList<>();
+    public ArrayList <Quarto> quartos = new ArrayList<>();
+    
+    
+    public static void cadastroCama () {
+        
+    }
     
 }

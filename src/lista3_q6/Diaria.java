@@ -32,7 +32,7 @@ public class Diaria {
         return this.cama;
     }
     
-    public void contabilizarDiaria() {
+    public final void contabilizarDiaria() {
         this.qtdDiarias++;
         if (this.qtdDiarias >= this.cama.getQuarto().diariasParaDesconto())
             this.valorDevido += this.cama.getQuarto().valorComDesconto();

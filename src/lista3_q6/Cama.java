@@ -5,6 +5,8 @@
  */
 package lista3_q6;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author beto
@@ -56,6 +58,18 @@ public class Cama {
             System.err.println(ex.getMessage());
             this.quarto = null;
         }
+    }
+    
+    public Diaria buscaDiaria(ArrayList<Diaria> diarias) {
+        if (this.disponivel)
+            return null;
+        else {
+            for (Diaria diaria : diarias) {
+                if (diaria.getCama() == this)
+                    return diaria;
+            }
+        }
+        return null;
     }
    
 }
