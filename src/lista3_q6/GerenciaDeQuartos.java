@@ -8,6 +8,7 @@ package lista3_q6;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 /**
@@ -15,15 +16,7 @@ import java.util.Scanner;
  * @author beto
  */
 public class GerenciaDeQuartos {
-    
-    /**
-     * listar ocupação, quartos com cama livre e camas ocupadas por quais clientes
-     * solicitar ocupação em quarto simples/luxo
-     * realizar checkout
-     * rodar diárias
-     * listar hospedagens por cliente
-     */
-    
+   
     public static ArrayList <Cama> camas = new ArrayList<>();
     public static ArrayList <Diaria> diarias = new ArrayList<>();
     public static ArrayList <Cliente> clientes = new ArrayList<>();
@@ -98,29 +91,53 @@ public class GerenciaDeQuartos {
         }
     }
     
-    public static void fazerCheckin() {
+    public static void fazerCheckin(Cliente cl, Cama c) {
         //cliente, cama
-        for (int i = 0; i < 90; i+=5) {
-            diarias.add(new Diaria(clientes.get(i*2),camas.get(i)));
+        diarias.add(new Diaria(cl,c));
+
+    }
+    
+    public static void rodarDiaria (ArrayList<Diaria> diaria) {
+        for (Diaria d : diaria) {
+            d.contabilizarDiaria();
+        }
+    }
+    
+    public static void listaHospedagem(ArrayList<Cliente> clientes) {
+        for (Cliente c : clientes) {
+            c.imprimeHistorico();
+        }
+    }
+    
+    public static void listaOcupacao (ArrayList<Cama> camas) {
+        Collections.sort(camas); //ordena pelo numero do quarto
+        for (Cama c : camas) {
+            System.out.print("Quarto: " + c.getQuarto().descricao() + " Cama: " + c.getId());
+            if (c.estaDisponivel())
+                System.out.println("\tDisponível");
+            else
+                System.out.println("\tOcupado por:" + c.buscaDiaria(diarias).getCliente().getNome());
         }
     }
     
     public static void main(String[] args) {
+    
+    /**
+     * listar ocupação, quartos com cama livre e camas ocupadas por quais clientes xx
+     * solicitar ocupação em quarto simples/luxo
+     * realizar checkout
+     * rodar diárias xx
+     * listar hospedagens por cliente xx
+     */
+
         cadastrarCliente();
         cadastrarQuarto();
         cadastrarCama();
-        fazerCheckin();
-        for (int i = 0; i < 15; i++) {
-            for (Diaria d : diarias) {
-                d.contabilizarDiaria();
-            }
-        }
-        for (Diaria d : diarias) {
-            d.fazerCheckout();
-        }
-        for (Cliente c : clientes) {
-            c.imprimeHistorico();
-        }
+        listaOcupacao(camas);
+
+        
+
+
 
     }
     

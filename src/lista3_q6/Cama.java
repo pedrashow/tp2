@@ -7,13 +7,14 @@ package lista3_q6;
 
 import java.util.ArrayList;
 
+
 /**
  *
  * @author beto
  */
 
 
-public class Cama {
+public class Cama implements Comparable<Cama> {
     
     private final int id;
     
@@ -70,6 +71,18 @@ public class Cama {
             }
         }
         return null;
+    }
+    
+    @Override
+    public int compareTo(Cama c) {
+        /**
+         * Ordena pelo número do quarto
+         */
+        if (this.getQuarto().getId() < c.getQuarto().getId())
+            return -1;
+        else if (this.getQuarto().getId() > c.getQuarto().getId())
+            return 1;
+        return 0;
     }
    
 }
