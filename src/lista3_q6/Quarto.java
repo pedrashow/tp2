@@ -54,9 +54,12 @@ public abstract class Quarto {
     public abstract int valorDiaria ();
 
     public abstract int diariasParaDesconto(); 
-    //a partir de qual diaria consecutiva é cobrado o valor com desconto
+    //a partir de qual diaria consecutiva é cobrado o valor com descono
     
     public abstract int valorComDesconto ();
     
-    public abstract String descricao();
+    public String descricao() {
+        return this.id + " Camas: " + this.qtdCamas; 
+    }
+    
 }

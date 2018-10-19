@@ -44,6 +44,6 @@ public class QuartoSimples extends Quarto {
     
     @Override
     public String descricao() {
-        return "Quarto Simples";
+        return super.descricao() + " - Quarto Simples ";
     }
 }

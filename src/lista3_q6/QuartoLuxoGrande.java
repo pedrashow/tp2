@@ -43,6 +43,6 @@ public class QuartoLuxoGrande extends Quarto {
     
     @Override
     public String descricao() {
-        return "Quarto Luxo Grande";
+        return super.descricao() + " - Quarto Luxo Grande ";
     }
 }

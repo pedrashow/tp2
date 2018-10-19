@@ -46,8 +46,9 @@ public class Cliente {
     }
     
     public void imprimeHistorico() {
+        System.out.println("Cliente: " + this.nome);
         for (HistoricoHospedagem hist : historico) {
-            System.out.println(hist.descricao());
+           System.out.println(hist.descricao());
         }
     }
 }
