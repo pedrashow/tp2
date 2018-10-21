@@ -32,6 +32,14 @@ public class Diaria {
         return this.cama;
     }
     
+    public int getValorDevido() {
+        return this.valorDevido;
+    }
+    
+    public int getQtdDiarias() {
+        return this.qtdDiarias;
+    }
+    
     public final void contabilizarDiaria() {
         this.qtdDiarias++;
         if (this.qtdDiarias >= this.cama.getQuarto().diariasParaDesconto())
@@ -42,12 +50,11 @@ public class Diaria {
             this.valorDevido -= this.cliente.valorDescontoFidelidade();
     }
     
-    public int fazerCheckout() {
+    public void encerrar() {
         this.cama.desocupa();
         this.cliente.adicionaHistorico(this.qtdDiarias, this.cama);
         if (this.qtdDiarias >= 10)
             this.cliente.daDescontoFidelidade();
-        return this.valorDevido;
     }
     
     

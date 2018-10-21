@@ -91,54 +91,97 @@ public class GerenciaDeQuartos {
         }
     }
     
-    public static void fazerCheckin(Cliente cl, Cama c) {
+    public static void fazerCheckIn(String nome, int idCama) {
         //cliente, cama
+        Cliente cl = getClienteByName (nome);
+        Cama c = getCamaById (idCama);
         diarias.add(new Diaria(cl,c));
-
     }
     
-    public static void rodarDiaria (ArrayList<Diaria> diaria) {
-        for (Diaria d : diaria) {
+    public static void fazerCheckOut(int id) {
+        Cama c = getCamaById(id);
+        Diaria d = c.buscaDiaria(diarias);
+        System.out.println("=== CHECKOUT ===");
+        System.out.println(d.getCliente().getNome());
+        System.out.println("Cama " + c.getId() + " Quarto: " + c.getQuarto().descricao());
+        System.out.println("diarias: " + d.getQtdDiarias());
+        System.out.println("a pagar: " + d.getValorDevido());
+        d.encerrar();
+        diarias.remove(d);
+    }
+    
+    public static void rodarDiaria () {
+        for (Diaria d : diarias) {
             d.contabilizarDiaria();
         }
     }
     
-    public static void listaHospedagem(ArrayList<Cliente> clientes) {
-        for (Cliente c : clientes) {
-            c.imprimeHistorico();
-        }
+    public static void listaHospedagem(String nome) {
+        Cliente c = getClienteByName (nome);
+        c.imprimeHistorico();
     }
     
     public static void listaOcupacao (ArrayList<Cama> camas) {
         Collections.sort(camas); //ordena pelo numero do quarto
+        Quarto q = new QuartoSimples(-1); //apenas para comparar e imprimir a descrição do quarto
         for (Cama c : camas) {
-            System.out.print("Quarto: " + c.getQuarto().descricao() + " Cama: " + c.getId());
+            if (c.getQuarto() != q)
+                System.out.println("Quarto: " + c.getQuarto().descricao());
             if (c.estaDisponivel())
-                System.out.println("\tDisponível");
+                System.out.println( "id Cama: " + c.getId() + "\tDisponível");
             else
-                System.out.println("\tOcupado por:" + c.buscaDiaria(diarias).getCliente().getNome());
+                System.out.println( "id Cama: " + c.getId() + "\tOcupado por: " + c.buscaDiaria(diarias).getCliente().getNome());
+            q = c.getQuarto();
         }
+    }
+    
+    public static Cama getCamaById (int id) {
+        for (Cama c : camas) {
+            if (c.getId() == id)
+                return c;
+        }
+        System.err.println("Cama não encontrada");
+        return null;
+    }
+    
+    public static Cliente getClienteByName (String nome) {
+        for (Cliente c : clientes) {
+            if (c.getNome().equals(nome) )
+                return c;
+        }
+        System.err.println("Cliente não encontrado");
+        return null;
     }
     
     public static void main(String[] args) {
     
     /**
-     * listar ocupação, quartos com cama livre e camas ocupadas por quais clientes xx
-     * solicitar ocupação em quarto simples/luxo
-     * realizar checkout
-     * rodar diárias xx
-     * listar hospedagens por cliente xx
+     * listar ocupação, quartos com cama livre e camas ocupadas por quais clientes -- listaOcupacao
+     * solicitar ocupação em quarto simples/luxo -- fazerCheckIn
+     * realizar checkout -- fazerCheckOut
+     * rodar diárias -- rodarDiarias
+     * listar hospedagens por cliente -- listaHospedagem
      */
 
         cadastrarCliente();
         cadastrarQuarto();
         cadastrarCama();
+        for (int i = 0; i < 90; i+=2) {
+            fazerCheckIn(clientes.get(i*2).getNome(),i+1);
+        }
         listaOcupacao(camas);
-
+        fazerCheckOut(21);
+        rodarDiaria();
+        fazerCheckOut (9);
+        listaHospedagem ("Dre Ferreira");
+        listaHospedagem ("Francesco Castanie");
+        fazerCheckIn ("Francesco Castanie", 36);
+        for (int i = 0; i < 20; i++) {
+            rodarDiaria();
+        }
+        fazerCheckOut (36);
+        listaHospedagem ("Francesco Castanie");
         
-
-
-
     }
     
 }
