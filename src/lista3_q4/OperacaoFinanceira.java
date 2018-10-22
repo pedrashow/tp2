@@ -28,6 +28,10 @@ public class OperacaoFinanceira {
         this.sucesso = status;
     }
     
+    public ContaBancaria getConta() {
+        return this.conta;
+    }
+    
     public String imprimir() {
         String status;
         if (this.sucesso)

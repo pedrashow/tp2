@@ -5,7 +5,8 @@
  */
 package lista3_q4;
 
-import lista3_q4.OperacaoFinanceira.TipoOperacao;
+import java.util.ArrayList;
+import lista3_q4.OperacaoFinanceira.TipoOperacao; // enum com SAQUE e DEPOSITO
 
 /**
  *
@@ -49,7 +50,7 @@ public class ContaBancaria {
         if (valor <= 0) {
             of.setSucesso(false);
             throw new IllegalArgumentException("Não é possível sacar um valor"
-                    + " menor ou igual a zero");
+                    + " menor ou igual a zero - saque de " + valor + " não efetuado.");
         }
         else if (this.getSaldo() - valor <= 0) {
             of.setSucesso(false);
@@ -67,7 +68,7 @@ public class ContaBancaria {
         OperacaoFinanceira of = new OperacaoFinanceira (TipoOperacao.DEPOSITO, this, valor);
         if (valor < 0) {
             of.setSucesso(false);
-            throw new IllegalArgumentException("Não é possível depositar um valor negativo");
+            throw new IllegalArgumentException("Não é possível depositar um valor negativo - deposito de " + valor + " não efetuado.");
         } 
         else {
             this.setSaldo(this.getSaldo()+valor);
@@ -83,6 +84,22 @@ public class ContaBancaria {
         System.out.println("Agencia: " + this.agencia);
         System.out.println("Conta: " + this.numero + "-" + this.digitoVerificador);
         System.out.println("==============");
+    }
+    
+    public ArrayList<OperacaoFinanceira> historicoTransacoes (ArrayList<OperacaoFinanceira> ofs) {
+        ArrayList<OperacaoFinanceira> histTransacoesIndividual = new ArrayList<>();
+        for (OperacaoFinanceira of : ofs) {
+            if (of.getConta().equals(this))
+                histTransacoesIndividual.add(of);
+        }
+        return histTransacoesIndividual;
+    }
+    
+    public void imprimeExtrato(ArrayList<OperacaoFinanceira> ofs) {
+        this.imprimeDescricao();
+        for (OperacaoFinanceira of : ofs) {
+            System.out.println(of.imprimir());
+        }
     }
     
 }
