@@ -11,10 +11,30 @@ package lista3_q4;
  */
 public class OperacaoFinanceira {
     
-    private enum TipoOperacao { SAQUE, DEPOSITO ;}
+    public static enum TipoOperacao { SAQUE, DEPOSITO ;}
     
-    private TipoOperacao tipo;
-    private ContaBancaria conta;
-    private double valor;
+    private final TipoOperacao tipo;
+    private final ContaBancaria conta;
+    private final double valor;
     private boolean sucesso;
+    
+    public OperacaoFinanceira (TipoOperacao tipo, ContaBancaria c, double valor) {
+        this.conta = c;
+        this.valor = valor;
+        this.tipo = tipo;
+    }
+    
+    public void setSucesso (boolean status) {
+        this.sucesso = status;
+    }
+    
+    public String imprimir() {
+        String status;
+        if (this.sucesso)
+            status = "Sucesso";
+        else
+            status = "Falha";
+        return this.conta.getConta() + "\t" + this.tipo.toString() +  "\t" + this.valor + "\t" + status;
+    }
+    
 }
