@@ -45,37 +45,40 @@ public class ContaBancaria {
         return this.numero + "-" + String.valueOf(this.digitoVerificador);
     }
     
-    public OperacaoFinanceira sacar (double valor) {
+    public void sacar (double valor) {
         OperacaoFinanceira of = new OperacaoFinanceira (TipoOperacao.SAQUE, this, valor);
         if (valor <= 0) {
             of.setSucesso(false);
+            Principal.operacoes.add(of);
             throw new IllegalArgumentException("Não é possível sacar um valor"
                     + " menor ou igual a zero - saque de " + valor + " não efetuado.");
         }
         else if (this.getSaldo() - valor <= 0) {
             of.setSucesso(false);
+            Principal.operacoes.add(of);
             System.out.println("Não há saldo suficiente");
         }
         else {
             this.setSaldo(this.getSaldo() - valor);
             of.setSucesso(true);
+            Principal.operacoes.add(of);
             System.out.println("Retire as notas abaixo");    
         }
-        return of;
     }
     
-    public OperacaoFinanceira depositar (double valor) {
+    public void depositar (double valor) {
         OperacaoFinanceira of = new OperacaoFinanceira (TipoOperacao.DEPOSITO, this, valor);
         if (valor < 0) {
             of.setSucesso(false);
+            Principal.operacoes.add(of);
             throw new IllegalArgumentException("Não é possível depositar um valor negativo - deposito de " + valor + " não efetuado.");
         } 
         else {
             this.setSaldo(this.getSaldo()+valor);
             of.setSucesso(true);
+            Principal.operacoes.add(of);
             System.out.println("Depósito efetuado com sucesso");
         }
-        return of;
     }
     
     public void imprimeDescricao() {

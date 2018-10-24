@@ -28,31 +28,23 @@ public class Principal {
     
     
     public static void main(String[] args) {
+        double[] valores = {50.0, 8000.0, -50.0, -1000.0, 500.0};
         ContaBancaria minhaConta = new ContaBancaria("6179","12943",5,"Roberto Oliveira");
-        try {
-            operacoes.add(minhaConta.sacar(50.0));
-        } catch (IllegalArgumentException ex) {
-            System.err.println(ex.getMessage());
-        }
-        try {
-            operacoes.add(minhaConta.depositar(80000.0));
-        } catch (IllegalArgumentException ex) {
-            System.err.println(ex.getMessage());
-        }        
-        try {
-            operacoes.add(minhaConta.sacar(-50.0));
-        } catch (IllegalArgumentException ex) {
-            System.err.println(ex.getMessage());
-        }        
-        try {
-            operacoes.add(minhaConta.depositar(-1000.0));
-        } catch (IllegalArgumentException ex) {
-            System.err.println(ex.getMessage());
-        }        
-        try {
-            operacoes.add(minhaConta.sacar(500.0));
-        } catch (IllegalArgumentException ex) {
-            System.err.println(ex.getMessage());
+        for (int i = 0; i < valores.length; i++) {
+            if (i%2 == 0) {
+                try {
+                    minhaConta.sacar(valores[i]);
+                } catch (IllegalArgumentException ex) {
+                    System.err.println(ex.getMessage());
+                }
+            }
+            else {
+                try {
+                    minhaConta.depositar(valores[i]);
+                } catch (IllegalArgumentException ex) {
+                    System.err.println(ex.getMessage());
+                }
+            }
         }
         minhaConta.imprimeExtrato(minhaConta.historicoTransacoes(operacoes));
     }
